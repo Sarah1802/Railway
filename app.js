@@ -33,5 +33,5 @@ app.listen(PORT, (error) => {
         throw error;
     }
 
-    console.log('My first express app');
+    console.log(`Server is running on ${PORT} `);
 })
